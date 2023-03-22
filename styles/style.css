@@ -16,7 +16,7 @@ body {
 }
 
 .book:hover{
-    color:#d9c2a3;
+    color:#ebe8e4;
     
 }
 
@@ -26,9 +26,10 @@ body {
     color:black;
     font-size:18px;
     padding:15px 30px;
-    margin-top:50px;
+    margin-top: 50px;
     border-radius:5px;
     text-align: center;
+    
     
 }
 
@@ -99,13 +100,15 @@ footer .social img {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -100px;
-
+    
 }
 
 #hero-box {
     grid-column: 1/4;
+    justify-self: center;
     grid-row: 1/3;
     z-index: -1;
+
 
 }
 
@@ -113,18 +116,33 @@ footer .social img {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
+    
+ 
 
 }
 #hero-msg h1{
-    
+    /* This is the "Have an Adventure" message */
     text-align: center; 
+  
 
 }
 
 #hero-msg h4{
+    /* This is the "Make Memories with Drafy Oar */
+
     text-align:center;
     width:100%;
     color: white;
+  
+    
+}
+
+#hero-msg div{
+    text-align:center;
+    width:100%;
+    color: white;
+    margin-top: 2px;
+    
     
 }
 
@@ -136,6 +154,7 @@ h2 {
 
 h4 {
     color:black;
+    
 }
 
 header {
@@ -149,6 +168,7 @@ header {
     color:#d9c2a3;
     font-size: 2em;
     margin-top: 10px;
+    
 }
 
 .icon {
@@ -163,6 +183,7 @@ header {
 main.home-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
+    
 }
 
 main section {
