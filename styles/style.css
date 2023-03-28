@@ -282,7 +282,7 @@ nav a:hover {
     margin-top: 20px;
     
 }
-main img {
+#rafting_img {
     justify-self:start;
     grid-column: 1/2; 
     width:100%;
@@ -324,7 +324,7 @@ main img {
 
   /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: red; 
+    background: rgb(47, 27, 129); 
     border-radius: 10px;
 }
 
