@@ -296,7 +296,7 @@ li {
 #description {
     grid-column: 3/4;
     border: 1px solid black;
-    margin-left: 30 px;
+    margin-left: 30px;
 }
 #description p{
     overflow-wrap: break-word;
